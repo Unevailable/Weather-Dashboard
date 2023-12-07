@@ -20,7 +20,6 @@ Xpert learning assistant,
 stack overflow,
 MDN web docs,
 YouTube
-https://day.js.org
 https://openweathermap.org/api
 
 
