@@ -1,0 +1,131 @@
+/* Reset default styles */
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* gives the first heading a background color and centers the text */
+h1 {
+    background-color: #00308F;
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    line-height: 70px;
+}
+
+/* styles the search button */
+#search-button {
+    background-color: #7CB9E8;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 15%;
+    height: 35px;
+    position: relative;
+    top: 170px;
+    right: 450px;
+    text-align: center;
+    font-size: large;
+    color: aliceblue;
+}
+
+/* changes the font size and position */
+#city-input {
+    width: 12%;
+    height: 30px;
+    position: relative;
+    top: 120px;
+    right: 200px;
+    font-size: medium;
+}
+
+/* Changes the font and bolds the label */
+label {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+/* position the box of currentWeather*/
+#currentWeather {
+    border-width: 2px;
+    width: 50%;
+    border-style: solid;
+    border-color: black;
+    background-color: #7CB9E8;
+    position: relative;
+    left: 40%;
+    top: 50px;
+    padding: 10px; /* Add padding for space inside the box */
+}
+
+
+#currentWeather div {
+    margin-bottom: 5px; /* Add margin between elements */
+    padding-left: 10px; /* Adjust the left padding as needed */
+}
+
+/* bolds the date and city name */
+#date, #cityName {
+    font-weight: bold; /* Bold the date and city */
+    font-size: 25px; /* Set font size for the date and city */
+}
+
+.forecast-container {
+    display: flex;
+    text-align: left;
+    position: relative;
+    left: 40%;
+    top: 40px;
+}
+
+/* creates a box for Forecast-box  */
+.forecast-box {
+    min-width: 150px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #7CB9E8;
+    padding: 10px;
+}
+
+.forecast-box div {
+    margin-bottom: 5px; /* Add margin between elements */
+}
+
+/*bolds and increase the size of the date*/
+.forecast-box .date {
+    font-weight: bold; /* Bold the date */
+    font-size: 20px;
+}
+
+#daytext {
+    position: relative;
+    left: 40%;
+    top: 50px;
+}
+
+/* History list changes the position */
+#historyList {
+    position: fixed;
+    top: 200px;
+    width: 15%;
+    left: 20px;
+    list-style: none;
+    padding: 0;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+/* adds a box and backgroud color to history list */
+#historyList li {
+    padding: 8px; /* Adjust padding for space inside the rounded box */
+    margin-bottom: 5px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    text-align: center; /* Center the text horizontally */
+}
